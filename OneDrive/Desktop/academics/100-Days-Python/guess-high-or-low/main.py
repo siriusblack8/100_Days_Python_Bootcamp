@@ -1,11 +1,3 @@
-
-# assign 1st to a and 2nd to b
-# compare the follower for both and whichever is the highest store its corresponding letter (a or b) it in high variable. 
-# display a and b, with name and details and ask user to choose between a and b
-# if user chose correct, keep the 2nd one in a and generate a new person in b. add one point to user
-# repeat the abve step until the user chooses wrong
-# if wrong, display - you lost and the points scored by the user
-
 import data
 import random
 
