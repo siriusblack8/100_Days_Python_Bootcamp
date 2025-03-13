@@ -16,6 +16,8 @@ def High_Low():
     data_list = list(data.celebrity_data.items())
     first_id = random.choice(data_list)
     second_id = random.choice(data_list)
+    if first_id == second_id:
+        second_id = random.choice(data_list)
     cont = 1
     points = 0
     while cont == 1:
@@ -30,6 +32,8 @@ def High_Low():
             print("\n")
             first_id = second_id
             second_id = random.choice(data_list)
+            if first_id == second_id:
+                second_id = random.choice(data_list)
             
         else:
             print("You are wrong!")
