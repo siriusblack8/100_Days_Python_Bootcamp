@@ -17,6 +17,8 @@ def report(a):
     print("\n")
     print(f"Money: ${a["Money"]}")
     print("\n")
+    print("\n")
+    print(f"Profit: ${a["Money"]-100}")
     
 def Money_calculation():
     print("Please input money in coins")
