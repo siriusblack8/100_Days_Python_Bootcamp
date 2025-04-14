@@ -1,0 +1,15 @@
+# Bill Split Calculator
+
+This Python script calculates how much each person should pay when splitting a bill, including a tip.
+
+## Description
+
+The script prompts the user to enter the total bill amount, the desired tip amount, and the number of people splitting the bill. It then calculates the total amount (bill + tip) and divides it equally among the specified number of people. The result is rounded to two decimal places and displayed to the user.
+
+## How to Use
+
+1.  **Run the script:** Execute the Python script using a Python interpreter.
+2.  **Enter the bill amount:** When prompted, enter the total bill amount as a numerical value (e.g., 100.50).
+3.  **Enter the tip amount:** When prompted, enter the desired tip amount as a numerical value (e.g., 15.00).
+4.  **Enter the number of people:** When prompted, enter the number of people splitting the bill as an integer (e.g., 5).
+5.  **View the result:** The script will display the amount each person should pay, rounded to two decimal places.
